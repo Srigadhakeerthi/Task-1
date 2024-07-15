@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-custom {
+            background-color: #0d1117;
+        }
+    </style>
+</head>
+<body class="bg-custom text-white font-sans">
+    <header class="text-center py-10">
+        <h1 class="text-4xl font-bold">Srigadha Keerthi</h1>
+        <p class="text-xl mt-2">Software Engineer</p>
+    </header>
+
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-4 mx-8">I am a passionate software engineer with a strong foundation in Java development. I enjoy building scalable and efficient software solutions.</p>
+    </section>
+
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <ul class="mt-4 space-y-2">
+            <li>Java</li>
+            <li>Spring Framework</li>
+            <li>RESTful APIs</li>
+            <li>SQL</li>
+            <li>HTML/CSS/JavaScript</li>
+        </ul>
+    </section>
+
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-semibold">Projects</h2>
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8">
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <img src="images/project1.jpg" class="rounded">
+                <h3 class="text-2xl font-bold mt-4">Project 1</h3>
+                <p class="mt-2">Description of project 1.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <img src="images/project2.jpg"  class="rounded">
+                <h3 class="text-2xl font-bold mt-4">Project 2</h3>
+                <p class="mt-2">Description of project 2.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Project 3</h3>
+                <p class="mt-2">Description of project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center py-10">
+        <h2 class="text-3xl font-semibold">Contact</h2>
+        <form class="mt-4 mx-8 max-w-md mx-auto" id="contactForm">
+            <div class="mb-4">
+                <input type="text" id="name" name="name" placeholder="Your Name" class="w-full p-2 rounded bg-gray-700 text-white">
+            </div>
+            <div class="mb-4">
+                <input type="email" id="email" name="email" placeholder="Your Email" class="w-full p-2 rounded bg-gray-700 text-white">
+            </div>
+            <div class="mb-4">
+                <textarea id="message" name="message" placeholder="Your Message" class="w-full p-2 rounded bg-gray-700 text-white"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="bg-gray-900 py-8">
+        <div class="text-center">
+            <h2 class="text-2xl font-semibold">Connect with Me</h2>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://www.linkedin.com/in/keerthi-srigadha-13321825a/" target="_blank" class="text-blue-400">LinkedIn</a>
+                <a href="https://github.com/Srigadhakeerthi" target="_blank" class="text-white">GitHub</a>
+            </div>
+        </div>
+        <div class="text-center mt-6">
+            <p>&copy; 2024 Srigadha Keerthi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
